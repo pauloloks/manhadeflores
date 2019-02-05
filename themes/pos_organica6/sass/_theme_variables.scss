@@ -1,0 +1,164 @@
+@import 'bootstrap_lib/_variables';
+
+//------- FONTS
+$font-family:				  		Roboto;
+$font:						  		normal 13px/18px $font-family;
+$font-custom:                 		'Open Sans', sans-serif;
+$font-icon:                   		"FontAwesome";
+$font-pe:                   		"Pe-icon-7-stroke";
+$fa-css-prefix:       				icon !default;
+
+
+//-------- BORDERS
+$base-border-color:					rgba(0, 0, 0, 0.1);
+$main_border:						1px solid $base-border-color;
+$dark-border-color:					#333;
+$light-border-color:				#fff;
+$homepage-footer-border:            #ebebeb;
+$border-color: 				#e5e5e5;
+
+//--------- BACKGROUNDS
+$main-background:    		#2d2d2d;
+$base-box-bg:                       #fbfbfb;
+$table-background:                  $base-box-bg;
+$dark-background:                   #333;
+$light-background:                  #fff;
+$homepage-footer-bg:                #f2f2f2;
+
+//--------- COLORS
+$hover-color:			    #98ab3f;
+$base-body-color:                   #666;
+$base-text-color:                   #333;
+$base-heading-color:				#555454;
+$base-title-color:					$base-text-color;
+$light-text-color:                  #fff;
+$link-color:						$link-color;
+$link-hover-color:                  $link-hover-color;
+$description-color:					#666;
+
+
+//--------- Indents
+$base-page-indent:                 	$grid-gutter-width;
+$base-box-padding:                  14px 18px 13px;
+$base-box-indent:                  	0 0 30px 0;
+
+//---------- Product Elements
+$product-name-color:                #3a3939;
+$product-name-hover-color:          #515151;
+$price-color:						$base-body-color;
+$product-price-color:				$base-text-color;
+$product-reduced-price:				#f00;
+$product-special-price-color:		#f13340;
+$product-old-price-color:			#6f6f6f;
+
+//---------- Buttons
+$button-text-color:					$light-text-color;
+
+		//------ Buttons +/- ---
+		$button-pm-color:			#c0c0c0;
+		$button-pm-hover-color:		$base-text-color;
+
+		//------ Button Small --
+		$button-small-bg:			#6f6f6f;
+		$button-small-hover-bg:		#575757;
+
+		//-------Button exclusive-medium
+		$button-em-color:			$base-text-color;
+
+//---------- Product Listing
+$base-listing-border-color:					$base-border-color;
+$base-listing-grid-padding:					$base-box-padding;
+
+		//-------------- Grid/List vars
+		$GL-text-color:								#808080;
+		$GL-title-color:							$base-text-color;
+		$GL-icon-color:								#e1e0e0;
+		$GL-icon-color-hover:						$base-text-color;
+
+		//-------------- Pagination vars
+		$pagination-prevnext-color:					#777676;
+		$pagination-bgcolor:	               		$base-box-bg;
+		$pagination-hover-bg:						#f6f6f6;
+
+//---------- Product Info
+$top-line-color:									#C4C4C4;
+$product-image-border:								#dbdbdb;
+$scroll-button-color:								#c0c0c0;
+$list-info-bg:										#f6f6f6;
+$scroll-button-hover-color:							$base-text-color;
+$tr-even-bg:										#fdfdfd;
+
+//sub heading (h2,h3) define
+@mixin sub-heading {
+	color: $base-heading-color;
+	text-transform: uppercase;
+	font-family: $font-custom;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 14px 20px 17px;
+	margin: 0 0 20px;
+	position: relative;
+	border: 1px solid $base-border-color;
+	border-bottom: none;
+	background: $base-box-bg;
+}
+@mixin pos-transition($number) {
+	-webkit-transition: all $number linear;
+	-moz-transition: all $number linear;
+	-ms-transition: all $number linear;
+	-o-transition: all $number linear;
+	transition: all $number linear;
+}
+@mixin pos-transform($number) {
+	-moz-transform: scale3d($number,$number,$number);
+	-webkit-transform: scale3d($number,$number,$number);
+	-o-transform: scale3d($number,$number,$number);
+	-ms-transform: scale3d($number,$number,$number);
+	transform: scale3d($number,$number,$number);
+}
+@mixin pos-box-shaw {
+	-webkit-box-shadow: 3px 6px 12px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    3px 6px 12px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:         3px 6px 12px 0px rgba(0, 0, 0, 0.3);
+}
+@mixin nav-box-shaw {
+	-webkit-box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.2);
+}
+@mixin pos-radius {
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+@mixin pos-translate($number) {
+-moz-transform: translateX($number);
+-webkit-transform: translateX($number);
+-o-transform: translateX($number);
+-ms-transform: translateX($number);
+transform: translateX($number);
+}
+@mixin placeholder {
+  &::-moz-placeholder { @content }
+  &::-webkit-input-placeholder { @content }
+  &:-ms-input-placeholder { @content }
+}
+ 
+@mixin placeholder-style {
+  color:$light-text-color;
+}
+
+@function get1024-vw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: (1024 * .01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+@function get767-vw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: (767 * .01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+@function get480-vw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: (480 * .01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}

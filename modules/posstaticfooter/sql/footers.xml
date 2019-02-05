@@ -1,0 +1,346 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+	<block>
+		<id_posstaticblock>1</id_posstaticblock>
+		<identify>footer_static_col1</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module>blockmyaccountfooter</name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>2</id_posstaticblock>
+		<identify>footer_static_col2</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module>blockcms</name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>3</id_posstaticblock>
+		<identify>footer_static_col3</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>4</id_posstaticblock>
+		<identify>footer_static_col4</identify>
+		<hook_position>blockFooter1</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>8</id_posstaticblock>
+		<identify>footer_static_col5</identify>
+		<hook_position>blockFooter4</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>9</id_posstaticblock>
+		<identify>footer_static_col6</identify>
+		<hook_position>blockFooter4</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	<block>
+		<id_posstaticblock>10</id_posstaticblock>
+		<identify>footer_static_top</identify>
+		<hook_position>blockFooter2</hook_position>
+		<name_module></name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+		<is_default>1</is_default>
+	</block>
+	
+<!-- block language configuration -->
+<!-- language1-->
+	<block_language>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col1</title>
+		<description>
+			<![CDATA[
+			
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col2</title>
+		<description>
+			<![CDATA[
+			
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col3</title>
+		<description>
+			<![CDATA[
+				<div class="footer-block col-xs-12 col-sm-6 col-md-3">
+				<h4>Customer Service</h4>
+				<div class=" footer-contact toggle-footer">
+				<ul>
+				<li class="first"><a href="#">Site Map</a></li>
+				<li><a href="#">Specials</a></li>
+				<li><a href="#">Order History</a></li>
+				<li><a href="#">Returns</a></li>
+				<li class="last"><a href="#">My Account</a></li>
+				</ul>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col4</title>
+		<description>
+			<![CDATA[
+				<div class="footer-block col-xs-12 col-sm-6 col-md-3">
+				<h4>Extras</h4>
+				<div class=" footer-contact toggle-footer">
+				<ul>
+				<li class="first"><a href="#">Brands</a></li>
+				<li><a href="#">Gift Vouchers</a></li>
+				<li><a href="#">Affiliates</a></li>
+				<li><a href="#">Our Service</a></li>
+				<li class="last"><a href="#">Specials</a></li>
+				</ul>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col5</title>
+		<description>
+			<![CDATA[
+				<address class="col-sm-6 col-xs-12">Copyright <i class="icon-copyright"></i> <a href="http://posthemes.com/">Posthemes</a>. All Rights Reserved</address>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Col6</title>
+		<description>
+			<![CDATA[
+				<div class="payment col-sm-6 col-xs-12"><a href="#"><img src="/posthemes/pos_organica/img/cms/payment.png" alt="" /></a></div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>10</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Footer Static Top</title>
+		<description>
+			<![CDATA[
+				<div class="footer-static">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="block-wrapper box1">
+				<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i> <span>Do you have <br /> a question?</span></div>
+				<div class="text">+0123 456 789</div>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="block-wrapper box2">
+				<div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>offer <br /> question?</span></div>
+				<div class="text">Contact@organica.com</div>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 ">
+				<div class="block-wrapper box3">
+				<div class="icon"><i class="fa fa-life-saver" aria-hidden="true"></i> <span>SUpport <br /> question?</span></div>
+				<div class="text">support@organica.com</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>	
+	
+<!-- block language configuration -->
+	<!-- language2-->
+	
+	<block_language>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col1</title>
+		<description>
+			<![CDATA[
+			
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col2</title>
+		<description>
+			<![CDATA[
+			
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col3</title>
+		<description>
+			<![CDATA[
+				<div class="footer-block col-xs-12 col-sm-6 col-md-3">
+				<h4>Customer Service</h4>
+				<div class=" footer-contact toggle-footer">
+				<ul>
+				<li class="first"><a href="#">Site Map</a></li>
+				<li><a href="#">Specials</a></li>
+				<li><a href="#">Order History</a></li>
+				<li><a href="#">Returns</a></li>
+				<li class="last"><a href="#">My Account</a></li>
+				</ul>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col4</title>
+		<description>
+			<![CDATA[
+				<div class="footer-block col-xs-12 col-sm-6 col-md-3">
+				<h4>Extras</h4>
+				<div class=" footer-contact toggle-footer">
+				<ul>
+				<li class="first"><a href="#">Brands</a></li>
+				<li><a href="#">Gift Vouchers</a></li>
+				<li><a href="#">Affiliates</a></li>
+				<li><a href="#">Our Service</a></li>
+				<li class="last"><a href="#">Specials</a></li>
+				</ul>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col5</title>
+		<description>
+			<![CDATA[
+				<address class="col-sm-6 col-xs-12">Copyright <i class="icon-copyright"></i> <a href="http://posthemes.com/">Posthemes</a>. All Rights Reserved</address>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Col6</title>
+		<description>
+			<![CDATA[
+				<div class="payment col-sm-6 col-xs-12"><a href="#"><img src="/posthemes/pos_organica/img/cms/payment.png" alt="" /></a></div>
+			]]>
+		</description>
+	</block_language>
+	<block_language>
+		<id_posstaticblock>10</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Footer Static Top</title>
+		<description>
+			<![CDATA[
+				<div class="footer-static">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="block-wrapper box1">
+				<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i> <span>Do you have <br /> a question?</span></div>
+				<div class="text">+0123 456 789</div>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="block-wrapper box2">
+				<div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>offer <br /> question?</span></div>
+				<div class="text">Contact@organica.com</div>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 ">
+				<div class="block-wrapper box3">
+				<div class="icon"><i class="fa fa-life-saver" aria-hidden="true"></i> <span>SUpport <br /> question?</span></div>
+				<div class="text">support@organica.com</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_language>	
+	
+<!-- block shop configuration -->
+	<block_shop>
+		<id_posstaticblock>1</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>2</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>3</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>4</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>10</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+</pos_static_blocks>

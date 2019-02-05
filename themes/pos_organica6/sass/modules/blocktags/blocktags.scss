@@ -1,0 +1,30 @@
+@import '../../_theme_variables';
+.tags_block {
+	.block_content {
+		overflow:hidden;
+		a {
+			display:inline-block;
+			font-size:12px;
+			text-transform:capitalize;
+			font-weight:400;
+			line-height:25px;
+			padding:0 25px;
+		    border:$main_border;
+			border-radius:20px;
+			color:#9d9d9d;
+			margin:0 5px 5px 0;
+			@include pos-transition(300ms);
+
+			&:hover {
+				color:$light-text-color;
+				border-color:$hover-color;
+				background:$hover-color;
+				@include pos-transition(300ms);
+			}
+			@media (min-width:$screen-sm) and (max-width:$screen-sm-max) {	
+				font-size:12px;
+				padding:0 5px;
+			}	
+		}
+	}
+}

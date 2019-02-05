@@ -1,0 +1,130 @@
+@import "compass";
+@import "theme_variables";
+#categories_block_top {
+  clear: both;
+  position: relative;
+  top: 30px;
+  .sf-menu {
+    position: relative;
+    > li {
+      position: static;
+      > ul {
+        width: 100%;
+        top: 60px;
+        margin: 0 20px;
+        > li {
+          display: block;
+          float: left;
+          width: 20%;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 0 10px;
+        }
+        > .category_thumb {
+          display: block;
+          clear: both;
+          overflow: hidden;
+          width: 100%;
+          img {
+            display: inline-block;
+            width: 33%;
+          }
+        }
+      }
+      h4 {
+        a {
+          font-size: 1.1em;
+          &:before {
+            display: none;
+          }
+        }
+      }
+      .main-level-submenus {
+        position: relative;
+        display: block !important;
+        visibility: visible !important;
+        top: 0;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        left: 0;
+      }
+    }
+    .category_thumb {
+      display: none;
+    }
+  }
+}
+
+#categories_block_left{
+	border: 2px solid $hover-color;
+	border-radius: 5px;
+  .title_block {
+	border:0;
+	margin: 0;
+    line-height: 50px;
+    background: $hover-color;
+    color:$light-text-color;
+	position:relative;
+	span {
+		padding:0;
+	}
+    padding: 0 15px;
+	  &:before {
+		  display:none;
+	  }
+  }
+  li {
+    position: relative;
+    a {
+      font-weight: normal;
+	  color: #4c4c4c;
+      display: block;
+      font-size: 15px;
+	  text-transform:capitalize;
+      line-height: 50px;
+      padding: 0 30px 0 15px;
+      border-bottom: 1px solid $border-color;
+	  border-top:0;
+	  font-family: Roboto;
+    }
+    span.grower {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+      font-size: 16px;
+      &.OPEN,
+      &.CLOSE {
+        &:before {
+          content: "-";
+          display: block;
+          vertical-align: middle;
+          width: 30px;
+          height: 50px;
+          color:#777777;
+          line-height: 50px;
+          text-align: center;
+        }
+      }
+      &.CLOSE:before {
+        content: "+";
+        color:#777777;
+      }
+    }
+    & span.grower:hover + a,
+    a:hover,
+    a.selected {
+      color:$hover-color;
+    }
+    li {
+      a {
+        font-weight: normal;
+        color: #4c4c4c;
+		text-transform:capitalize;
+      }
+    }
+  }
+}

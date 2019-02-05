@@ -1,0 +1,57 @@
+/**
+* 2007-2016 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    DJTAL
+*  @copyright 2015 DJTAL
+*  @version   1.0.0
+*  @link      http://www.djtal.com.br/
+*  @license
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+#cepDontKnowButton, #cepSearchButton {
+    margin-top: 6px;
+}
+#cepSearchButton {
+    margin-right: 12px;
+}
+#cepSearchButton span i {
+    margin-right: 0px;
+    font-size: 14px;
+}
+
+#cepSearchButton span i {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    margin-right: 0px;
+    font-size: 14px;
+}
+.icon-search:before {
+  content: ""; }
+
+#postcode.wait-check{
+    background: url(../img/wait.gif) 98% 5px no-repeat transparent;
+    background-size: 16px 16px;
+}

@@ -1,0 +1,70 @@
+.pos-bestsellers .pos-title h2 {
+  font-size: 24px; }
+  @media (min-width: 768px) {
+    .pos-bestsellers .pos-title h2 {
+      font-size: 23px; } }
+.pos-bestsellers .item-product {
+  margin-bottom: 30px; }
+  .pos-bestsellers .item-product .products-inner {
+    width: 34%;
+    display: inline-block;
+    float: left; }
+  .pos-bestsellers .item-product .product-contents {
+    width: 66%;
+    padding-left: 15px;
+    text-align: left; }
+    .pos-bestsellers .item-product .product-contents h5.product-name a {
+      font-size: 16px;
+      line-height: 16px; }
+    .pos-bestsellers .item-product .product-contents .actions {
+      margin-top: 15px; }
+      .pos-bestsellers .item-product .product-contents .actions .add-to-links .cart a.ajax_add_to_cart_button {
+        padding: 10px 30px; }
+        @media (max-width: 991px) {
+          .pos-bestsellers .item-product .product-contents .actions .add-to-links .cart a.ajax_add_to_cart_button {
+            padding: 10px 15px;
+            font-size: 11px; } }
+
+.pos-bestsellers-product .title_block:after {
+  display: none; }
+@media (max-width: 991px) {
+  .pos-bestsellers-product .title_block {
+    font-size: 18px; } }
+.pos-bestsellers-product .item-product {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  border-radius: 0; }
+  .pos-bestsellers-product .item-product:before {
+    display: none; }
+  .pos-bestsellers-product .item-product:last-child {
+    margin: 0; }
+  .pos-bestsellers-product .item-product .products-inner {
+    float: left;
+    width: 90px;
+    margin-right: 20px; }
+  .pos-bestsellers-product .item-product .product-contents {
+    overflow: hidden;
+    width: auto;
+    display: block;
+    padding: 0;
+    text-align: left; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .pos-bestsellers-product .item-product .product-contents {
+        display: inline-block;
+        width: 100%;
+        overflow: visible;
+        padding-top: 10px; } }
+    .pos-bestsellers-product .item-product .product-contents .price-box .price-percent-reduction {
+      display: none; }
+    .pos-bestsellers-product .item-product .product-contents h5.product-name a {
+      font-size: 16px;
+      text-transform: capitalize;
+      line-height: 18px; }
+      @media (max-width: 1199px) {
+        .pos-bestsellers-product .item-product .product-contents h5.product-name a {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          width: 100px; } }
+
+/*# sourceMappingURL=posbestsellers.css.map */

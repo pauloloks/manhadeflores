@@ -1,0 +1,54 @@
+[11-Sep-2018 23:01:46 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:01:46 America/Sao_Paulo] PHP Notice:  Undefined index: name in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/posstaticblocks.php on line 285
+[11-Sep-2018 23:01:46 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:01:46 America/Sao_Paulo] PHP Notice:  Undefined index: name in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/posstaticblocks.php on line 285
+[11-Sep-2018 23:02:07 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:02:07 America/Sao_Paulo] PHP Notice:  Undefined index: name in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/posstaticblocks.php on line 285
+[11-Sep-2018 23:02:07 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:02:07 America/Sao_Paulo] PHP Notice:  Undefined index: name in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/posstaticblocks.php on line 285
+[11-Sep-2018 23:02:21 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:02:21 America/Sao_Paulo] PHP Notice:  Undefined index: name in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/posstaticblocks.php on line 285
+[11-Sep-2018 23:02:21 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:02:21 America/Sao_Paulo] PHP Notice:  Undefined index: name in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/posstaticblocks.php on line 285
+[11-Sep-2018 23:02:51 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:02:51 America/Sao_Paulo] PHP Fatal error:  Uncaught You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 4<br /><br /><pre>
+            SELECT m.*
+            FROM `psy4_module` m
+            JOIN `psy4_module_shop` ms ON (m.`id_module` = ms.`id_module` AND ms.`id_shop` = 1)
+            WHERE m.`id_module` = LIMIT 1</pre>
+  thrown in /home/sirva749/public_html/manhadeflores/classes/db/Db.php on line 791
+[11-Sep-2018 23:02:51 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:02:51 America/Sao_Paulo] PHP Fatal error:  Uncaught You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 4<br /><br /><pre>
+            SELECT m.*
+            FROM `psy4_module` m
+            JOIN `psy4_module_shop` ms ON (m.`id_module` = ms.`id_module` AND ms.`id_shop` = 1)
+            WHERE m.`id_module` = LIMIT 1</pre>
+  thrown in /home/sirva749/public_html/manhadeflores/classes/db/Db.php on line 791
+[11-Sep-2018 23:04:31 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:04:31 America/Sao_Paulo] PHP Fatal error:  Uncaught You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 4<br /><br /><pre>
+            SELECT m.*
+            FROM `psy4_module` m
+            JOIN `psy4_module_shop` ms ON (m.`id_module` = ms.`id_module` AND ms.`id_shop` = 1)
+            WHERE m.`id_module` = LIMIT 1</pre>
+  thrown in /home/sirva749/public_html/manhadeflores/classes/db/Db.php on line 791
+[11-Sep-2018 23:04:31 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:04:31 America/Sao_Paulo] PHP Fatal error:  Uncaught You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 4<br /><br /><pre>
+            SELECT m.*
+            FROM `psy4_module` m
+            JOIN `psy4_module_shop` ms ON (m.`id_module` = ms.`id_module` AND ms.`id_shop` = 1)
+            WHERE m.`id_module` = LIMIT 1</pre>
+  thrown in /home/sirva749/public_html/manhadeflores/classes/db/Db.php on line 791
+[11-Sep-2018 23:05:37 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:05:37 America/Sao_Paulo] PHP Fatal error:  Uncaught You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 4<br /><br /><pre>
+            SELECT m.*
+            FROM `psy4_module` m
+            JOIN `psy4_module_shop` ms ON (m.`id_module` = ms.`id_module` AND ms.`id_shop` = 1)
+            WHERE m.`id_module` = LIMIT 1</pre>
+  thrown in /home/sirva749/public_html/manhadeflores/classes/db/Db.php on line 791
+[11-Sep-2018 23:05:37 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/sirva749/public_html/manhadeflores/modules/posstaticblocks/ajax.php on line 9
+[11-Sep-2018 23:05:37 America/Sao_Paulo] PHP Fatal error:  Uncaught You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 4<br /><br /><pre>
+            SELECT m.*
+            FROM `psy4_module` m
+            JOIN `psy4_module_shop` ms ON (m.`id_module` = ms.`id_module` AND ms.`id_shop` = 1)
+            WHERE m.`id_module` = LIMIT 1</pre>
+  thrown in /home/sirva749/public_html/manhadeflores/classes/db/Db.php on line 791

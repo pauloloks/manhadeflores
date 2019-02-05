@@ -1,0 +1,73 @@
+@import "compass";
+@import "theme_variables";
+#currencies-block-top {
+	float: right;
+	position: relative;
+	margin-right: 20px;
+	// max 1199px
+	@media (max-width: $screen-md-max) {
+		margin-right: 0;
+	}
+	span.firstWord {
+		display: none;
+	}
+	&:hover 	div.current {
+		color:$hover-color;
+	}
+	div.current {
+		font-weight: normal;
+		padding:0 8px;
+		line-height: 30px;
+		color:#777777;
+		text-shadow:none;
+		cursor: pointer;
+		font-size:12px;
+		text-transform:capitalize;
+		strong {
+			font-weight: normal;
+		}
+		&:after {
+			content: "\f0d7";
+			font-family: $font-icon;
+			font-size: 14px;
+			line-height: 1;
+			padding-left: 7px;
+			color:#343434;
+			vertical-align:middle;
+		}
+	}
+	.cur-label{display: none;}
+	ul {
+		display: none;
+		background:$light-background;
+		@include nav-box-shaw;
+		position: absolute;
+		padding:10px 15px;
+		top: 34px;
+		left:0;
+		min-width: 150px;
+		z-index: 2;
+		li {
+			color:#777777;
+			line-height: 30px;
+			font-size: 12px;
+			a,
+			> span {
+				padding: 0 5px;
+				display: inline-block;
+				color: #777777;
+			}
+			&.selected a, &:hover a {
+				color:$hover-color;
+			}
+			
+		}
+	}
+	@media (max-width: 640px) {
+		float:none;
+		display:inline-block;
+		div.current {
+			line-height:35px;
+		}
+	}
+}

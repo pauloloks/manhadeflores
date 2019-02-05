@@ -1,0 +1,134 @@
+@import "compass";
+@import "theme_variables";
+#search_block_top {
+	float:right;
+	text-align:right;
+	padding: 0;
+	@media (max-width:$screen-xs-max) {
+		text-align: center;
+		padding: 0;
+		margin-top: 15px;
+	}
+	// max 1199px
+	@media (max-width: $screen-md-max) {
+		
+	}
+	// max 991px
+	@media (max-width:$screen-sm-max) {
+		margin-top: 0;
+	}
+	// max 640px
+	@media (max-width: 640px) {
+		width: 100%;
+		margin: 15px 0;
+	}
+	// max 480px
+	@media (max-width: $screen-xs) {
+		margin-top: 15px;
+	}
+	#searchbox {
+		position: relative;
+		border-radius: 30px;
+		height: 31px;
+		padding-right: 500px;
+		background: #f4f4f4;
+		// max 1199px
+		@media (max-width: $screen-md-max) {
+			padding-right: 0;
+		}
+	}
+	.btn.button-search {
+	    background: none;
+		display: inline-block;
+		border: none;
+		border: none;
+		line-height: 30px;
+		position: absolute;
+		right: 12px;
+		top: 0;
+		text-align: center;
+		padding: 0;
+		text-transform:capitalize;
+		font-weight:700;
+		@include pos-radius;
+		font-size:14px;
+		@include pos-transition(300ms);
+		&:active {
+			box-shadow: none;
+		}
+		span{display: none;}
+		&:before{
+			content: "\f002";
+			font-family: "FontAwesome";
+			font-size: 14px;
+			line-height: 1;
+			color: #252525;
+			vertical-align: middle;
+		}
+		&:hover:before{
+			color: $hover-color;
+			@include pos-transition(300ms);
+		}
+	}
+	#search_query_top {
+		display: inline-block;
+		width:100%;
+		max-width:200px;
+		padding: 0 0 0 13px;
+		height:30px;
+		z-index:1;
+		color: #888888;
+		background: none;
+		border: none;
+		vertical-align:top;
+		@include pos-transition(300ms);
+		&:focus {
+			box-shadow:none;
+		}
+		// max 640px
+		@media (max-width: 640px) {
+			max-width: 100%;
+		}
+	}
+
+}
+
+.ac_results {
+	background: $light-background;
+	border:$main_border !important;
+	margin-top: -1px;
+	li {
+		padding:  10px 5px !important;
+		cursor:pointer;
+		font-weight: normal;
+		color: #686666;
+		font-size: 13px;
+		line-height: 22px;
+		&.ac_odd {
+			background: $light-background;
+		}
+		&:hover, &.ac_over {
+			background: $base-box-bg;
+		}
+	}
+}
+
+form#searchbox {
+	position: relative;
+	label {
+		color: $base-text-color;
+	}
+	input#search_query_block {
+		margin-right:10px;
+		max-width:222px;
+		margin-bottom:10px;
+		display:inline-block;
+		float:left;
+	}
+	.button.button-small {
+		float:left;
+		i {
+			margin-right:0;
+		}
+	}
+}

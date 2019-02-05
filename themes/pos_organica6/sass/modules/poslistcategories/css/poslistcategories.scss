@@ -1,0 +1,72 @@
+@import "compass";
+@import "theme_variables";
+.poslistcategories  {
+	margin-bottom:50px;
+	.owl-pagination {
+		position: absolute;
+		bottom: 20px;
+		text-align: center;
+		left: 0;
+		right: 0;
+	}
+	.list-categories {
+		position:relative;
+		overflow:hidden;
+		&:hover {
+			.thumb-category {
+				img{
+					@include pos-transform(1.1);
+					@include pos-transition(1s);	
+				}
+			}
+		}
+		
+		.thumb-category {
+			position:relative;
+			@include pos-radius;
+			overflow:hidden;
+			img {
+				@include pos-transform(1);
+				@include pos-transition(1s);	
+				width:100%;
+			}
+		}
+		.desc-listcategoreis {
+			position:absolute;
+			left:0;
+			right:0;
+			bottom:30px;
+			text-align:center;
+			background-color: rgba(255, 255, 255, 0.9);
+			padding: 20px 0;
+			.name_categories a{
+				font-size:22px;
+				@media (max-width: $screen-md-max) { 
+					font-size:16px;
+				}
+				font-weight:600;
+				color:#333333;
+				line-height:30px;
+				text-transform:uppercase;
+				display:block;
+				@include pos-transition(300ms);	
+				
+			}
+			.number_product {
+				color:#333333;
+				font-size:13px;
+				@include pos-transition(300ms);	
+			}
+			&:hover {
+				background-color: rgba(51, 51, 51, 0.9);
+				@include pos-transition(300ms);	
+				.name_categories a,.number_product{
+					color:$light-text-color;
+					@include pos-transition(300ms);	
+				}
+			}
+			
+		}
+		
+	}
+}

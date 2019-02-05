@@ -1,0 +1,100 @@
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+	float: left;
+	width: 100%;
+	margin-bottom:25px;
+}
+.pos-special-product .is-countdown{padding-top: 0;font-size: 16px!important;}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	text-align: center;
+
+}
+#product .countdown-row{background: none;}
+
+.countdown-section { 
+	 display: inline-block;
+	text-align: center;	
+	line-height: 1.35;
+	margin:0 10px;
+}
+.countdown-section:first-child {
+	margin-left:0;
+}
+.countdown-section:last-child {
+	margin-right:0;
+}
+.countdown-amount {
+	display: block; font-size: 36px; color: #333333; font-weight:300;background:#eeeef0; border-radius:5px;
+	line-height:42px;margin-bottom:8px;padding:10px;position:relative;height:55px;
+}
+.countdown-amount:after {
+	content:":";
+	position:absolute;
+	right:-16px;
+	top:50%;
+	line-height:1;
+	font-size:40px;
+	color:#7f7f7f;
+	-moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.countdown-section:last-child .countdown-amount:after{
+	display:none;
+}
+.countdown-period {
+    display: block;
+    font-size:13px;
+	font-weight:400;
+	color:#909090;
+	line-height:1;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}
+@media (max-width:767px) {
+/* 
+	.countdown-section {
+		width:auto;
+		margin:0 !important;
+		border-radius:0 !important;
+	}
+	.countdown-show1 .countdown-section {
+		width: 100%;
+	}
+	.countdown-show2 .countdown-section {
+		width: 50%;
+	}
+	.countdown-show3 .countdown-section {
+		width: 33.33%;
+	}
+	.countdown-show4 .countdown-section {
+		width: 25%;
+	}
+	#product .countdown-show4 .countdown-section{width: auto;}
+	.countdown-show5 .countdown-section {
+		width: 19.5%;
+	}
+	.countdown-show6 .countdown-section {
+		width: 16.25%;
+	}
+	.countdown-show7 .countdown-section {
+		width: 14%;
+	}  */
+	.countdown-amount {
+		font-weight:500;
+		font-size:20px;
+	}
+}
+#defaultCountdown { width: 240px; height: 45px; }

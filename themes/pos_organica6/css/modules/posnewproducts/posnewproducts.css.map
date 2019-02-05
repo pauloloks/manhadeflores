@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,gBAAkB;EACjB,UAAU,EAAE,KAAK;EAEhB,yCAAkB;IAAC,OAAO,EAAE,CAAC",
+"sources": ["../../../sass/modules/posnewproducts/posnewproducts.scss"],
+"names": [],
+"file": "posnewproducts.css"
+}

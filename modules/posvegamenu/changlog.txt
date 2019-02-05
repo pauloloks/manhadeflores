@@ -1,0 +1,8 @@
+
+*******************Add more view for category **********************
+
+File fixs 
+	- modules\posvegamenu\posmegamenu.php
+	- modules\posvemenu\posvegamenu.tpl
+
+ 

@@ -1,0 +1,385 @@
+<pos_static_blocks>
+<!-- static block configuration -->
+
+	<block>
+		<id_posstaticblock>8</id_posstaticblock>
+		<identify>block_social</identify>
+		<hook_position>blockPosition5</hook_position>
+		<name_module>blocksocial</name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>9</id_posstaticblock>
+		<identify>block_newsletter</identify>
+		<hook_position>blockPosition5</hook_position>
+		<name_module>blocknewsletter</name_module>
+		<hook_module>displayFooter</hook_module>
+		<posorder>0</posorder>
+		<insert_module>1</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>20</id_posstaticblock>
+		<identify>banner_header</identify>
+		<hook_position>blockPosition6</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>21</id_posstaticblock>
+		<identify>banner_right_slide</identify>
+		<hook_position>bannerSlide</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>22</id_posstaticblock>
+		<identify>banner_top</identify>
+		<hook_position>blockPosition1</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>23</id_posstaticblock>
+		<identify>banner_home</identify>
+		<hook_position>blockPosition2</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	<block>
+		<id_posstaticblock>24</id_posstaticblock>
+		<identify>banner_bottom</identify>
+		<hook_position>blockPosition3</hook_position>
+		<name_module></name_module>
+		<hook_module></hook_module>
+		<posorder>0</posorder>
+		<insert_module>0</insert_module>
+		<active>0</active>
+		<showhook>1</showhook>
+	</block>
+	
+<!-- block lang configuration -->
+<!-- language1 -->
+	
+	<block_lang>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Block Social</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Block Newsletter</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>20</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Header</title>
+		<description>
+			<![CDATA[
+				<div class="static-slide">
+				<div class="container">
+				<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12 box1">
+				<div class="text"><i class="fa fa-plane"></i>
+				<p>Free shipping on orders over</p>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 box2">
+				<div class="text"><i class="fa fa-history"></i>
+				<p>30 -Day returns money back</p>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 box3">
+				<div class="text"><i class="fa fa-futbol-o"></i>
+				<p>24/7 Support</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>21</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Right Slide</title>
+		<description>
+			<![CDATA[
+				<div class="col-md-3 col-sm-4 col-xs-12">
+				<div class="banner-slide">
+				<div class="box-col slide-box1"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.1.jpg" alt="" /></a></div>
+				<div class="box-col slide-box2"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.2.jpg" alt="" /></a></div>
+				<div class="box-col slide-box3"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.3.jpg" alt="" /></a></div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>22</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Top</title>
+		<description>
+			<![CDATA[
+				<div class="banner-top">
+				<div class="container">
+				<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12 box1">
+				<div class="box-col"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.4.jpg" alt="" /></a></div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 box2">
+				<div class="box-col"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.5.jpg" alt="" /></a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>23</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Home</title>
+		<description>
+			<![CDATA[
+				<div class="container">
+				<div class="banner-home">
+				<div class="image"><img src="/posthemes/pos_organica/img/cms/cms_6.9.jpg" alt="" /></div>
+				<div class="text-home">
+				<h1>New arrivals</h1>
+				<h2>Organic</h2>
+				<div class="shop now"><a href="13-lips">Shop now</a></div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>24</id_posstaticblock>
+		<id_lang>1</id_lang>
+		<title>Banner Bottom</title>
+		<description>
+			<![CDATA[
+				<div class="banner-bottom">
+				<div class="container">
+				<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="box-col bottom-box1"><a href="#"><img src="/posthemes/pos_organica/img/cms/cms_6.10.jpg" alt="" /></a></div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="box-col bottom-box2"><a href="#"><img src="/posthemes/pos_organica/img/cms/cms_6.11.jpg" alt="" /></a></div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="box-col bottom-box3"><a href="#"><img src="/posthemes/pos_organica/img/cms/cms_6.12.jpg" alt="" /></a></div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="box-col bottom-box4"><a href="#"><img src="/posthemes/pos_organica/img/cms/cms_6.13.jpg" alt="" /></a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+<!-- language2 -->	
+	
+	<block_lang>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Block Social</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Block Newsletter</title>
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>20</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Header</title>
+		<description>
+			<![CDATA[
+				<div class="static-slide">
+				<div class="container">
+				<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12 box1">
+				<div class="text"><i class="fa fa-plane"></i>
+				<p>Free shipping on orders over</p>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 box2">
+				<div class="text"><i class="fa fa-history"></i>
+				<p>30 -Day returns money back</p>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 box3">
+				<div class="text"><i class="fa fa-futbol-o"></i>
+				<p>24/7 Support</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>21</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Right Slide</title>
+		<description>
+			<![CDATA[
+				<div class="col-md-3 col-sm-4 col-xs-12">
+				<div class="banner-slide">
+				<div class="box-col slide-box1"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.1.jpg" alt="" /></a></div>
+				<div class="box-col slide-box2"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.2.jpg" alt="" /></a></div>
+				<div class="box-col slide-box3"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.3.jpg" alt="" /></a></div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>22</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Top</title>
+		<description>
+			<![CDATA[
+				<div class="banner-top">
+				<div class="container">
+				<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12 box1">
+				<div class="box-col"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.4.jpg" alt="" /></a></div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 box2">
+				<div class="box-col"><a href="14-eyes"><img src="/posthemes/pos_organica/img/cms/cms_6.5.jpg" alt="" /></a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>23</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Home</title>
+		<description>
+			<![CDATA[
+				<div class="container">
+				<div class="banner-home">
+				<div class="image"><img src="/posthemes/pos_organica/img/cms/cms_6.9.jpg" alt="" /></div>
+				<div class="text-home">
+				<h1>New arrivals</h1>
+				<h2>Organic</h2>
+				<div class="shop now"><a href="13-lips">Shop now</a></div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	<block_lang>
+		<id_posstaticblock>24</id_posstaticblock>
+		<id_lang>2</id_lang>
+		<title>Banner Bottom</title>
+		<description>
+			<![CDATA[
+				<div class="banner-bottom">
+				<div class="container">
+				<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="box-col bottom-box1"><a href="#"><img src="/posthemes/pos_organica/img/cms/cms_6.10.jpg" alt="" /></a></div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="box-col bottom-box2"><a href="#"><img src="/posthemes/pos_organica/img/cms/cms_6.11.jpg" alt="" /></a></div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="box-col bottom-box3"><a href="#"><img src="/posthemes/pos_organica/img/cms/cms_6.12.jpg" alt="" /></a></div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="box-col bottom-box4"><a href="#"><img src="/posthemes/pos_organica/img/cms/cms_6.13.jpg" alt="" /></a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+			]]>
+		</description>
+	</block_lang>
+	
+<!-- block shop configuration -->
+
+	<block_shop>
+		<id_posstaticblock>8</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>9</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>20</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>21</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>22</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>23</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+	<block_shop>
+		<id_posstaticblock>24</id_posstaticblock>
+		<id_shop>1</id_shop>
+	</block_shop>
+</pos_static_blocks>

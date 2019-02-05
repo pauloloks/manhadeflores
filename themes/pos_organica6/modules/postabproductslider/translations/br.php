@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_9ff0635f5737513b1a6f559ac2bff745'] = 'Novos Produtos';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_cf8156f1f57a8603cd6b3a28c9c2c61b'] = 'Produtos em Destaque';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_0b0085b315266a8c3bfb9ddba79987e6'] = 'Promoção';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_6229b1c0488e884dbe976251efe2ff68'] = 'Mais Vendidos';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_df7859ac16e724c9b1fba0a364503d72'] = 'Ocorreu um erro ao tentar carregar o arquivo.';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_efc226b17e0532afff43be870bff0de7'] = 'As configurações foram atualizadas.';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_f4f70727dc34561dfde1a3c529b6205c'] = 'Configurações';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_cd56aaa6883976c9794319e1fe62137a'] = 'Título do Módulo';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_b6920727e095f59fe72875b96c7c5d28'] = 'Mostrar novos produtos';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Ativado';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_b9f5c797ebbf55adccdd8539a65a0241'] = 'Inativado';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_b1c975dfc181f23e10b5254239d683fe'] = 'Mostrar produtos especiais';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_779e109fae25c0ac00e7c8972ce0157f'] = 'Mostrar produtos mais vendidos';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_7482e8349f2bd1131e9f899b24467b9d'] = 'Mostrar produtos em destaque';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_530f488f7a9800411efc6926ab189708'] = 'Linhas';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_16f62a20c797f4580da14d4952c1174a'] = 'Número de linhas do módulo';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_fdeeda42b7c084f7eae6dffdf71ee01c'] = 'Número de itens';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_2236018ecb48a3d6a5c4dedadcd56748'] = 'Mostrar número de produtos visiveis';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_0d0b0417edead04de19bb5eee8efaf4c'] = 'Velocidade da rolagem';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_1e6a508c037fc42ef6155eeadbb80331'] = 'Auto play';
+$_MODULE['<{postabproductslider}pos_organica6>postabproductslider_9d60b936019f9a2b6f8125ad2c498948'] = 'Tempo automático';
+$_MODULE['<{postabproductslider}pos_organica6>producttabslider_03c2e7e41ffc181a4e84080b4710e81e'] = 'Novo';
+$_MODULE['<{postabproductslider}pos_organica6>producttabslider_bb63f16d5ebfcfa8a651642a7bb2ea5c'] = 'Promoção';
+$_MODULE['<{postabproductslider}pos_organica6>producttabslider_2d0f6b8300be19cf35e89e66f0677f95'] = 'Comprar';
+$_MODULE['<{postabproductslider}pos_organica6>producttabslider_7f5508c884f40e3378895c83d99cbbd3'] = 'Adicionar para comparar';
+$_MODULE['<{postabproductslider}pos_organica6>producttabslider_7eece51cf3938103677db7a5051ef8f5'] = 'Comparar';
+$_MODULE['<{postabproductslider}pos_organica6>producttabslider_c91e4ee170226d66e90f99ba917e4c20'] = 'Visualizar';

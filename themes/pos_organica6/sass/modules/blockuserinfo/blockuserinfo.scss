@@ -1,0 +1,90 @@
+@import "compass";
+@import "theme_variables";
+.header_userinfo_mobile {
+	float:left;
+	text-align:left;
+	.top-userinfo {
+		display:inline-block;
+		position: relative;
+		&:hover .top-links {
+			color:$hover-color;
+		}
+		.top-links {
+			font-weight: normal;
+			padding:0px 10px;
+			line-height: 1;
+			color: #777777;
+			text-shadow: none;
+			cursor: pointer;
+			font-size:12px;
+			&:after {
+				content: "\f107";
+				font-family: $font-icon;
+				font-size: 14px;
+				line-height: 1;
+				vertical-align:middle;
+				padding-left: 7px;
+			}
+		}
+		ul {
+			display: none;
+			position: absolute;
+			padding:0;
+			top: 34px;
+			left:0;
+			min-width: 150px;
+			background:$light-background;
+			@include nav-box-shaw;
+			z-index: 2;
+			li {
+				color:#777777;
+				line-height: 30px;
+				font-size: 12px;
+				a,
+				> span {
+					padding: 0 15px;
+					display: block;
+					color: #777777;
+				}
+				&.selected, &:hover a {
+					color:$hover-color;
+				}
+				
+			}
+		}
+	}
+	@media (max-width:$screen-xs  - 1) {
+		float:none;
+		display:inline-block !important;
+		.top-userinfo {
+			.top-links {
+				line-height:35px;
+			}
+		}
+	}
+}
+.header_userinfo {
+	#header_links li{
+		float:left;
+		border-left:1px solid #777777;
+		&:first-child {
+			border-left:0;
+			a {
+				padding-left:0;
+			}
+		}
+		a {
+			color: #777777;
+			text-transform: capitalize;
+			text-decoration: none;
+			font-size:12px;
+			padding: 0 10px;
+			&:hover {
+				color:$hover-color;
+				@include pos-transition(300ms);
+				
+			}
+		}
+	}
+	
+}

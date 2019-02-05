@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>djtalbrazilianregister</name>
+	<displayName><![CDATA[Cadastro Brasileiro]]></displayName>
+	<version><![CDATA[1.0.5]]></version>
+	<description><![CDATA[Este m&oacute;dulo adiciona os campos para as informa&ccedil;&otilde;es esperadas durante o processo de cadastro dos clientes no Brasil: CPF / CNPJ / CEP]]></description>
+	<author><![CDATA[Djtal]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Você tem certeza que quer desinstalar este módulo - todas as informações dos clientes (CPF / CNPJ) serão perdidas]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

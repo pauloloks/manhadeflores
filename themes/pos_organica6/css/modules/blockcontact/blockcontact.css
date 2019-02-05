@@ -1,0 +1,94 @@
+.contact-link {
+  float: right;
+  margin-right: 20px;
+  color: #777777;
+  line-height: 30px; }
+  @media (max-width: 991px) {
+    .contact-link {
+      position: static; } }
+  @media (max-width: 640px) {
+    .contact-link {
+      width: 100%;
+      margin-top: 20px; } }
+  @media (max-width: 479px) {
+    .contact-link {
+      margin: 0; } }
+  .contact-link .shop-phone {
+    position: relative;
+    text-shadow: none;
+    font-size: 13px;
+    display: block;
+    color: #666;
+    font-weight: 400; }
+    .contact-link .shop-phone i {
+      font-size: 16px;
+      line-height: 30px;
+      color: #7b7b7b;
+      padding-right: 7px;
+      vertical-align: -2px; }
+    .contact-link .shop-phone strong {
+      font-weight: 400;
+      color: #666; }
+  .contact-link .shop-email {
+    position: relative;
+    line-height: 30px;
+    text-shadow: none;
+    font-size: 17px;
+    display: block;
+    font-weight: 500;
+    display: none; }
+    .contact-link .shop-email a {
+      color: #313131; }
+      .contact-link .shop-email a:hover {
+        text-decoration: underline;
+        color: #98ab3f; }
+    .contact-link .shop-email i {
+      font-size: 16px;
+      line-height: 30px;
+      padding-right: 7px;
+      vertical-align: -2px; }
+
+#contact-link {
+  float: right;
+  border-left: 1px solid #515151; }
+  @media (max-width: 479px) {
+    #contact-link {
+      text-align: center; } }
+  #contact-link a {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 10px 11px 10px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      #contact-link a {
+        font-size: 11px;
+        padding-left: 5px;
+        padding-right: 5px; } }
+    #contact-link a:hover, #contact-link a.active {
+      background: #2b2b2b; }
+  @media (max-width: 767px) {
+    #contact-link.is_logged {
+      display: none; } }
+
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px; } }
+#contact_block .label {
+  display: none; }
+#contact_block .block_content {
+  color: #888888; }
+#contact_block p {
+  margin-bottom: 4px; }
+#contact_block p.tel {
+  font: 400 17px/21px Arial, Helvetica, sans-serif;
+  color: #333;
+  margin-bottom: 6px; }
+  #contact_block p.tel i {
+    font-size: 25px;
+    vertical-align: -2px;
+    padding-right: 10px; }
+
+/*# sourceMappingURL=blockcontact.css.map */
